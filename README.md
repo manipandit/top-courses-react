@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Top Courses - Online Learning Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Top Courses" is a React app that serves as an online learning platform. It fetches data of different courses from an API and allows users to filter courses based on categories.
 
-## Available Scripts
+## Table of Contents
+- [Introduction](#introduction)
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API](#api)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
 
-In the project directory, you can run:
 
-### `npm start`
+## Introduction
+"Top Courses" is a user-friendly online learning platform that provides access to a wide range of courses. The app fetches course data from an API and displays it in a categorized format, making it easier for users to find courses that match their interests.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
+https://top-courses-react.netlify.app/
+![top-courses-react](https://github.com/manipandit/top-courses-react/assets/110151059/34b48812-8a6b-4cfe-85c8-27ad0ca120d1)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
+- Fetches course data from an API and displays it in the app.
+- Allows users to filter courses based on categories like development, design, business, etc.
+- User-friendly interface for easy navigation and course exploration.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Run `npm install` to install the project dependencies.
 
-### `npm run build`
+## Usage
+1. After the installation, run `npm start` to start the development server.
+2. Open your web browser and go to `http://localhost:3000` to view the app.
+3. Browse through the available courses on the home page.
+4. Use the category filter to narrow down courses based on specific interests.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API
+The app fetches course data from an external API. The API provides course details, including title, description, image, and category.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
+- React
+- useState hook
+- useEffect hook
+- fetch API
+- loader state
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
+Contributions are welcome! If you have any suggestions for improvement, want to fix issues, or add new features, feel free to open an issue or submit a pull request.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

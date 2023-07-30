@@ -18,7 +18,7 @@ const App = () => {
       const output = await res.json();
 
       //save the data into a variable
-      console.log(output);
+      // console.log(output);
       setCourses(output.data);
     } catch (error) {
       toast.error("something went wrong");

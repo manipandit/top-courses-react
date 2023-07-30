@@ -8,7 +8,7 @@ const Cards = ({ courses, category }) => {
 
   // returns list of all courses received from the api response
   const getCourses = () => {
-    if (category == "All") {
+    if (category === "All") {
       Object.values(courses).forEach((courseCategory) => {
         courseCategory.forEach((course) => {
           allCourses.push(course);
